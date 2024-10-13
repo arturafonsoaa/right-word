@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .button {
+    @apply cursor-pointer rounded-full border-2 border-white bg-blue-600 px-10 py-2 text-lg font-bold uppercase text-white transition hover:bg-blue-700;
+  }
+
+  .input-button {
+    @apply rounded-l-none;
+  }
+}
